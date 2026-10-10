@@ -1,0 +1,15 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; --accent: #2a7de1; }
+body { margin: 0; }
+main { max-width: 760px; margin: 0 auto; padding: 16px; }
+h1 span { font-weight: 400; opacity: .6; font-size: .6em; }
+.panel { border: 1px solid #8884; border-radius: 8px; padding: 12px 16px; margin: 12px 0; }
+label { display: inline-block; margin-right: 16px; }
+input { padding: 4px 6px; width: 7em; }
+table { border-collapse: collapse; width: 100%; margin-bottom: 8px; }
+th, td { padding: 4px; text-align: left; }
+td input { width: 100%; box-sizing: border-box; }
+button { padding: 6px 12px; margin-right: 6px; cursor: pointer; }
+#error { color: #d33; min-height: 1.2em; }
+#plan { width: 100%; max-width: 400px; border: 1px solid #8884; border-radius: 8px; }
+small { font-weight: 400; opacity: .6; }
+.num { font-variant-numeric: tabular-nums; }
